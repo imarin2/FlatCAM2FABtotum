@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # $1 => file_in
-# $3 => rpm
+# $2 => rpm
 feed_rapids='F10000'
 feed_tool=`cat $1 | grep '^F'`
 
